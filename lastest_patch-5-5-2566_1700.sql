@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: May 05, 2023 at 08:23 AM
+-- Generation Time: May 05, 2023 at 11:59 AM
 -- Server version: 10.4.27-MariaDB-log
 -- PHP Version: 8.1.12
 
@@ -114,10 +114,7 @@ INSERT INTO `pts_employee` (`E_ID`, `E_Username`, `E_Password`, `E_Name`, `E_Sur
 (102, 'user', '92b8bfe75ef27b5408f0791f5bf1db81ba70b8c91c95b00c00d2bd1a0bb2f973dea64c51e900d21d762e3f662a60ba3ca70dbb0f5dc989143797f6d7706f414b', 'James', 'User', 'user', 'ushome', 'salt123'),
 (103, 'user2', 'aa86f4afa0ca10535ee4eb9ad7a8ba6b8fd747737d34d51ca68fa300d189dee999634ac99ae421e4c5b971e6ce1cd7a6fa92d3db71010593205cce6b491e5e1f', 'lerbronc', 'jame', 'user', 'amasd', 'salt123'),
 (104, 'user3', 'a0eb7a843c3c73af6c8b0ec08ddcf1b2acf5cd6331c1d9a8aee08a47a34643c4e689712feb9576e4cd10e78f5a832c33ef946dfa87d0ea42a18ff449d775497e', 'we', 'qw', 'user', 'ushome', 'salt123'),
-(105, 'user4', '8acaad4f6432318e821c1f1588a70aa27852f3fd4102c1dd8b21824b512177c8186c47d29afbe558b83d89bed9704245b53bcfa695aed70068388c2eb9a3ec50', 'jim', 'we', 'user', 'amasd', 'salt123'),
-(114, 'sornpat1', '4ecfcd2c4d93d0da709161e3465c879391d339e7ac3edf19799b35ea1fcd615497ecc7ab24d79fce061d056eaaf7f2dfb40e87dbafb08ef3ff5ccb96be1b3c72', 'sornpat1', 'admin', 'admin', 'sornpat1\'s house', 'lWlJlzrx'),
-(115, '123', '87fcbd8c6e64bd86abbc1fe85051b6d1bb1a61ded7338e851d08f233ab305e854f193ea755a03b8a4f668ad25ae7618d2e284a234107544ed04baf2c26247d8f', '123', 'admin', 'admin', '123\'s house', 'EYYXtqUB'),
-(117, '1233', '3f7258128183c389110cad9629e44b187f6076f85d58babb7ec5188e8c516f973aa4b6a599c4ef2bb62bf896c56cd50696220245a7f12c2a12bc9090d0cb690b', '1233', 'admin', 'admin', '1233\'s house', '17uqBYco');
+(105, 'user4', '8acaad4f6432318e821c1f1588a70aa27852f3fd4102c1dd8b21824b512177c8186c47d29afbe558b83d89bed9704245b53bcfa695aed70068388c2eb9a3ec50', 'jim', 'we', 'user', 'amasd', 'salt123');
 
 -- --------------------------------------------------------
 
@@ -337,7 +334,7 @@ ALTER TABLE `dummy`
 -- AUTO_INCREMENT for table `pts_employee`
 --
 ALTER TABLE `pts_employee`
-  MODIFY `E_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=118;
+  MODIFY `E_ID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=106;
 
 --
 -- AUTO_INCREMENT for table `pts_orderdetail`
