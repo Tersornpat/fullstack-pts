@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign up</title>
+</head>
+<body style="margin: 0px;padding: 0px;" bgcolor="#E9F3FF">
+    <font face="TH SarabunPSK" style="font-size: 20px;">
+        <!--Table ใหญ่ 3x3-->
+        <table border="0" bordercolor="black" width="100%" height="968px">
+            <!--Row 1-->
+            <tr width="100%" height="30%">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+            <!--Row 2-->
+            <tr width="100%" height="20%">
+                <td></td>
+                <!--Center-->
+                <td width="40%" align="center">
+                    <form action="signup.php" method="post">
+                        <div style="border: 3px solid #0072EF; width:625px; height:781px;border-radius: 10px;">
+                            <table border="0" bgcolor="white" style="border-radius: 10px;"  width="100%" height="100%" bordercolor="black">
+                                <!--header-->
+                                <tr align="center"height="20%" >
+                                    <td colspan="2">
+                                        <font style="font-size: 60px;font-weight:1000;">Sign up</font> 
+                                        <hr style="width:75%">
+                                    </td>
+                                </tr>
+                                <!--Information-->
+                                <tr align="center" width="100%" height="60%">
+                                    <td colspan="2">
+                                        <table border="0" width="100%" height="100%">
+                                            <tr height="10%"align="center">
+                                                <!--Username-->
+                                                <td width="50%">
+                                                    <div align="left" style="margin-left: 6%;">
+                                                        <font style="font-size: 23px;"><b>Username: </b></font><br>                                                         
+                                                    </div>
+                                                    <input type="text" placeholder=Username name="username" style="width:85%;height: 20px;">
+                                                </td>
+                                                <!--Displayname-->
+                                                <td width="50%">
+                                                    <div align="left" style="margin-left: 6%;">
+                                                        <font style="font-size: 23px;"><b>Displayname: </b></font><br>                                                         
+                                                    </div>
+                                                    <input type="text" placeholder=Displayname name="displayname" style="width:85%;height: 20px;">
+                                                </td>
+                                            </tr>
+                                            <tr height="10%"align="center">
+                                                <!--Password-->
+                                                <td width="50%">
+                                                    <div align="left" style="margin-left: 6%;">
+                                                        <font style="font-size: 23px;"><b>Password: </b></font><br>                                                         
+                                                    </div>
+                                                    <input type="password" placeholder=Password name="password" style="width:85%;height: 20px;">
+                                                </td>
+                                                <!--Confirm Password-->
+                                                <td width="50%">
+                                                    <div align="left" style="margin-left: 6%;">
+                                                        <font style="font-size: 23px;"><b>Confirm Password: </b></font><br>                                                         
+                                                    </div>
+                                                    <input type="password" placeholder="Confirm Password" name="confirmpassword" style="width:85%;height: 20px;">
+                                                </td>
+                                            </tr>
+                                            <tr height="10%"align="center">
+                                                <!--Name-->
+                                                <td>
+                                                    <div align="left" style="margin-left: 6%;">
+                                                        <font style="font-size: 23px;"><b>Name: </b></font><br>                                                         
+                                                    </div>
+                                                    <input type="text" placeholder="Name" name="name" style="width:85%;height: 20px;">
+                                                </td>
+                                                <!--Surname-->
+                                                <td>
+                                                    <div align="left" style="margin-left: 6%;">
+                                                        <font style="font-size: 23px;"><b>Surname: </b></font><br>                                                         
+                                                    </div>
+                                                    <input type="text" placeholder="Surname" name="surname" style="width:85%;height: 20px;">
+                                                </td>
+                                            </tr>
+                                            <tr height="10%"align="center">
+                                                <!--Birthday-->
+                                                <td>
+                                                    <div align="left" style="margin-left: 6%;">
+                                                        <font style="font-size: 23px;"><b>Birthday: </b></font><br>                                                         
+                                                    </div>
+                                                    <input type="date" placeholder="Birthday" name="birthday" style="width:85%;height: 20px;">
+                                                </td>
+                                                <!--Gender-->
+                                                <td>
+                                                    <div align="left" style="margin-left: 6%;">
+                                                        <font style="font-size: 23px;"><b>Gender: </b></font><br>                                                         
+                                                    </div>
+                                                    <select name="gender" id="gender" style="width:87%;height: 25px;">
+                                                        <option value="M">Male</option>
+                                                        <option value="F">Female</option>
+                                                        <option value="U">Undefined</option>
+                                                    </select>
+                                                </td>
+                                            </tr>
+                                            <tr height="10%" width="100%" align="center" valign="bottom">
+                                                <td colspan="2"> <font style="font-size: 23px;"><b>Skill: </b></font></td>
+                                            </tr>
+                                            <tr height="25%" align="left";>
+                                                <td colspan="2">
+                                                    <table border="0" width="100%"height="100%">
+                                                    <tr>
+                                                        <td width="33%">
+                                                            <input type="checkbox" name="vehicle1" value="Bike" style="margin-left: 20px;">
+                                                            <label for="vehicle1">HTML</label><br>
+                                                            <input type="checkbox" name="vehicle2" value="Car" style="margin-left: 20px;">
+                                                            <label for="vehicle2">XML</label><br>
+                                                            <input type="checkbox" name="vehicle3" value="Boat" style="margin-left: 20px;">
+                                                            <label for="vehicle3">JSML</label>
+                                                        </td>
+                                                        <td width="33%">
+                                                            <input type="checkbox" name="vehicle1" value="Bike" style="margin-left: 20px;">
+                                                            <label for="vehicle1">PHP</label><br>
+                                                            <input type="checkbox" name="vehicle2" value="Car" style="margin-left: 20px;">
+                                                            <label for="vehicle2">Javascript</label><br>
+                                                            <input type="checkbox" name="vehicle3" value="Boat" style="margin-left: 20px;">
+                                                            <label for="vehicle3">Python</label>
+                                                        </td>
+                                                        <td width="33%">
+                                                            <input type="checkbox" name="vehicle1" value="Bike" style="margin-left: 20px;">
+                                                            <label for="vehicle1">Xampp</label><br>
+                                                            <input type="checkbox" name="vehicle2" value="Car" style="margin-left: 20px;">
+                                                            <label for="vehicle2">Mongo DB</label><br>
+                                                            <input type="text" placeholder="Except Skill:" name="skill" style="margin-left: 20px;width:120px;height: 20px;">
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                                </td>
+                                                
+                                            </tr>
+                                            <tr height="30%">
+                                                <!--Introducing-->
+                                                <td align="center" colspan="2">
+                                                    <div align="left" style="margin-left: 6%;">
+                                                        <font style="font-size: 23px;"><b>Intro: </b></font><br>                                                         
+                                                    </div>
+                                                    <textarea name="intro" id="" cols="70" rows="8" placeholder="Introducing yourself!"></textarea>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <!--button-->
+                                <tr align="center" height="10%">
+                                    <td width="50%">
+                                        <!--Reset-->
+                                        <button type="reset" style="  
+                                        background-color: white;
+                                        border: 1px solid rgb(255, 0, 0);
+                                        width: 80px;
+                                        height:  30px;
+                                        text-align: center;
+                                        border-radius: 10px;
+                                        cursor: pointer;">
+                                            <font style="font-size:17px;"> Reset </font>
+                                        </button>
+                                    </td>                       
+                                    <td width="50%">
+                                        <!--Submit-->
+                                        <button type="submit" style="
+                                        background-color: white;
+                                        border: 1px solid #0072EF;
+                                        width: 80px;
+                                        height:  30px;
+                                        text-align: center;
+                                        border-radius: 10px;
+                                        cursor: pointer;">
+                                            <font style="font-size:17px;"> Submit </font>
+                                        </button> 
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+                        <!--Table Layout login-->
+                    </form>
+                </td>
+                <td></td>
+            </tr>
+            <!--Row 3-->
+            <tr width="100%" height="30%">
+                <td></td>
+                <td></td>
+                <td></td>
+            </tr>
+        </table>
+    </font>
+</body>
+</html>
