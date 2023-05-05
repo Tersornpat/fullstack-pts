@@ -57,7 +57,7 @@
                                                     <div align="left" style="margin-left: 6%;">
                                                         <font style="font-size: 23px;"><b>Password: </b></font><br>                                                         
                                                     </div>
-                                                    <input type="password" placeholder=Password name="password" style="width:85%;height: 20px;">
+                                                    <input type="password" placeholder=Password name="password" pattern="(?=.*\d)(?=.*[\W_]).{7,}" title="Minimum of 7 characters. Should have at least one special character and one number." style="width:85%;height: 20px;">
                                                 </td>
                                                 <!--Confirm Password-->
                                                 <td width="50%">

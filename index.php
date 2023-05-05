@@ -49,7 +49,7 @@
                                                 <td  align="left" width="50%">
                                                     <!--Password-->
                                                     <font style="font-size: 25px;"><b>Password: </b></font><br> 
-                                                    <input type="Password"  placeholder=Password name="password">                                                
+                                                    <input type="Password"  placeholder=Password name="password" >                                                
                                                 </td>
                                             </tr>
                                         </table>
@@ -93,7 +93,7 @@
             <!--Row 3-->
             <tr width="100%" height="30%">
                 <td></td>
-                <td></td>
+                <td align="center"><a href="./SignUP.html"><input type="button" style=" background-color:white; color: black;border: 2px solid #4CAF50; border-radius:10px; font-size:20px; padding:10px;" value="SIGN UP"></a></td>
                 <td></td>
             </tr>
         </table>

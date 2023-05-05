@@ -19,7 +19,5 @@
     $result->execute();
     $conn->close();
 
-
-    $message = "Sign UP Succeed";
     header("Location: index.php");
 ?>
