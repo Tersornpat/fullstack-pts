@@ -3,6 +3,7 @@
     include "./connectdb.php";
 ?>
 <?php
+    //Injectable No salting without hash password
     $username = $_POST["username"];
     $password = $_POST["password"];
 
