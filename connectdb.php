@@ -1,5 +1,5 @@
 <?php
-$servername = "my-db.ckifiguewtro.ap-southeast-1.rds.amazonaws.com:3306";
+$servername = "tersornpat-db.ckifiguewtro.ap-southeast-1.rds.amazonaws.com:3306";
 $username = "admin";
 $password = "12345678";
 $dbname = "pts";
