@@ -1,7 +1,7 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "";
+$servername = "my-db.ckifiguewtro.ap-southeast-1.rds.amazonaws.com:3306";
+$username = "admin";
+$password = "12345678";
 $dbname = "pts";
 
 // Create connection
